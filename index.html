@@ -40,107 +40,994 @@
 
         <p>1. &nbsp&nbsp&nbsp請問您是否曾經有透過任何網路直播平台（如Twitch、金剛直播、17直播、浪Live、浪Live、YouTube Gaming、Facebook直播等）觀看直播節目？</p>
         <label for="q11">
-          <input type="radio" name="q1" value="是" id="q11">是
+          <input type="radio" name="habit" value="是" id="q11">是
         </label>
         <label for="q12">
-          <input type="radio" name="q1" value="否" id="q12">否
+          <input type="radio" name="habit" value="否" id="q12">否
         </label>
         <br>
         <br>
         <br>
         <p>2. &nbsp&nbsp&nbsp請問您最近一年最常使用來觀看網路直播的裝置是？</p>
         <label for="q21">手機
-          <input type="radio" name="q2" value="手機" id="q21">
+          <input type="radio" name="dev" value="手機" id="q21">
         </label>
         <label for="q22">平板
-          <input type="radio" name="q2" value="平板" id="q22">
+          <input type="radio" name="dev" value="平板" id="q22">
         </label>
         <label for="q23">電腦
-          <input type="radio" name="q2" value="電腦" id="q23">
+          <input type="radio" name="dev" value="電腦" id="q23">
         </label>
         <br>
         <br>
         <br>
         <p>3. &nbsp&nbsp&nbsp請問您最近一年最常使用的網路直播平台是？(複選，至多三題)</p>
         <label for="q31">Facebook直播
-          <input type="checkbox" name="q3" value="Facebook直播" id="q31">
+          <input type="checkbox" name="platform" value="Facebook直播" id="q31">
         </label>
         <label for="q32">YouTube直播
-          <input type="checkbox" name="q3" value="YouTube直播" id="q32">
+          <input type="checkbox" name="platform" value="YouTube直播" id="q32">
         </label>
         <label for="q33">Instagram直播
-          <input type="checkbox" name="q3" value="Instagram直播" id="q33">
+          <input type="checkbox" name="platform" value="Instagram直播" id="q33">
         </label>
         <label for="q34">Twitch
-          <input type="checkbox" name="q3" value="Twitch" id="q34">
+          <input type="checkbox" name="platform" value="Twitch" id="q34">
         </label>
         <label for="q35">金剛直播
-          <input type="checkbox" name="q3" value="金剛直播" id="q35">
+          <input type="checkbox" name="platform" value="金剛直播" id="q35">
         </label>
         <label for="q36">Periscope
-          <input type="checkbox" name="q3" value="Periscope" id="q36">
+          <input type="checkbox" name="platform" value="Periscope" id="q36">
         </label>
         <label for="q37">17直播
-          <input type="checkbox" name="q3" value="17直播" id="q37">
+          <input type="checkbox" name="platform" value="17直播" id="q37">
         </label>
         <label for="q38">浪Live
-          <input type="checkbox" name="q3" value="浪Live" id="q38">
+          <input type="checkbox" name="platform" value="浪Live" id="q38">
         </label>
         <label for="q39">LiveMe
-          <input type="checkbox" name="q3" value="LiveMe" id="q39">
+          <input type="checkbox" name="platform" value="LiveMe" id="q39">
         </label>
         <label for="q310">RC直播
-          <input type="checkbox" name="q3" value="RC直播" id="q310">
+          <input type="checkbox" name="platform" value="RC直播" id="q310">
         </label>
         <label for="q311">皮克Live
-          <input type="checkbox" name="q3" value="皮克Live" id="q311">
+          <input type="checkbox" name="platform" value="皮克Live" id="q311">
         </label>
         <label for="q312">BIGO LIVE
-          <input type="checkbox" name="q3" value="BIGO LIVE " id="q312">
+          <input type="checkbox" name="platform" value="BIGO LIVE " id="q312">
         </label>
         <label for="q314">LIVE house
-          <input type="checkbox" name="q3" value="LIVE house" id="q314">
+          <input type="checkbox" name="platform" value="LIVE house" id="q314">
         </label>
         <label for="q315">Up直播
-          <input type="checkbox" name="q3" value="Up直播" id="q315">
+          <input type="checkbox" name="platform" value="Up直播" id="q315">
+        </label>
+        <label for="q316">其他
+          <input type="checkbox" name="platform" value="其他" id="q316">
         </label>
 <br>
 <br>
 <br>
         <p>4. &nbsp&nbsp&nbsp請問您觀看直播節目的類型主要為？(複選，至多三題)</p>
         <label for="q41">遊戲或電競
-          <input type="checkbox" name="q4" value="遊戲或電競" id="q41">
+          <input type="checkbox" name="type" value="遊戲或電競" id="q41">
         </label>
         <label for="q42">新聞討論
-          <input type="checkbox" name="q4" value="新聞討論" id="q42">
+          <input type="checkbox" name="type" value="新聞討論" id="q42">
         </label>
         <label for="q43">產品經驗（開箱)
-          <input type="checkbox" name="q4" value="產品經驗（開箱）" id="q43">
+          <input type="checkbox" name="type" value="產品經驗（開箱）" id="q43">
         </label>
         <label for="q44">才藝表演
-          <input type="checkbox" name="q4" value="才藝表演" id="q44">
+          <input type="checkbox" name="type" value="才藝表演" id="q44">
         </label>
         <label for="q45">現場活動直播(如演唱會)
-          <input type="checkbox" name="q4" value="現場活動直播（如演唱會" id="q45">
+          <input type="checkbox" name="type" value="現場活動直播（如演唱會" id="q45">
         </label>
         <label for="q46">生活分享
-          <input type="checkbox" name="q4" value="生活分享" id="q46">
+          <input type="checkbox" name="type" value="生活分享" id="q46">
         </label>
         <label for="q47">拍賣
-          <input type="checkbox" name="q4" value="拍賣" id="q47">
+          <input type="checkbox" name="type" value="拍賣" id="q47">
         </label>
         <label for="q48">其他
-          <input type="checkbox" name="q4" value="其他" id="q48">
+          <input type="checkbox" name="type" value="其他" id="q48">
         </label>
 
 <br>
 <br>
 <br>
-<p>5. &nbsp&nbsp&nbsp請問您最近一年年曾經觀看的直播主為？(複選，至多三題)</p>
+        <p>5. &nbsp&nbsp&nbsp請問您最近一年曾經觀看的直播主為？(複選，至多三題)</p>
+        <label for="q51">小紫(17直播)
+          <input type="checkbox" name="streamer" value="小紫(17直播)" id="q51">
+        </label>
+        <label for="q52">橘子糖(浪Live)
+          <input type="checkbox" name="streamer" value="橘子糖(浪Live)" id="q52">
+        </label>
+        <label for="q53">孟孟(LiveMe)
+          <input type="checkbox" name="streamer" value="孟孟(LiveMe)" id="q53">
+        </label>
+        <label for="q54">開水小姐
+          <input type="checkbox" name="streamer" value="開水小姐" id="q54">
+        </label>
+        <label for="q55">小熊 Yuniko
+          <input type="checkbox" name="streamer" value="小熊 Yuniko" id="q55">
+        </label>
+        <label for="q56">小雲寶寶
+          <input type="checkbox" name="streamer" value="小雲寶寶" id="q56">
+        </label>
+        <label for="q57">六嘆 6tan
+          <input type="checkbox" name="streamer" value="六嘆 6tan" id="q57">
+        </label>
+        <label for="q58">丁特 Dinter
+          <input type="checkbox" name="streamer" value="丁特 Dinter" id="q58">
+        </label>
+        <label for="q59">小葵 XiaoKui
+          <input type="checkbox" name="streamer" value="小葵 XiaoKui" id="q59">
+        </label>
+        <label for="q510">懶貓 LanCat
+          <input type="checkbox" name="streamer" value="懶貓 LanCat" id="q510">
+        </label>
+        <label for="q511">殺梗Xargon
+          <input type="checkbox" name="streamer" value="殺梗Xargon" id="q511">
+        </label>
+        <label for="q512">老皮OP Channel
+          <input type="checkbox" name="streamer" value="老皮OP Channel" id="q512">
+        </label>
+        <label for="q513">Toyz
+          <input type="checkbox" name="streamer" value="Toyz" id="q513">
+        </label>
+        <label for="q514">鼻地大師國動張葦航
+          <input type="checkbox" name="streamer" value="鼻地大師國動張葦航" id="q514">
+        </label>
+        <label for="q515">亞洲統神張嘉航
+          <input type="checkbox" name="streamer" value="亞洲統神張嘉航" id="q515">
+        </label>
+        <label for="q516">館長陳之漢
+          <input type="checkbox" name="streamer" value="館長陳之漢" id="q516">
+        </label>
+        <label for="q517">其他1
+          <input type="checkbox" name="streamer" value="其他1" id="q517">
+        </label>
+        <label for="q518">其他2
+          <input type="checkbox" name="streamer" value="其他2" id="q518">
+        </label>
+        
+<br>
+<br>
+<br>
+        <p>6. &nbsp&nbsp&nbsp請問您觀看直播節目的經驗至今約為？</p>
+        <label for="q61">少於1年
+          <input type="radio" name="exp" value="少於1年" id="q61">
+        </label>
+        <label for="q62">1年至3年
+          <input type="radio" name="exp" value="1年至3年" id="q62">
+        </label>
+        <label for="q63">3年至5年
+          <input type="radio" name="exp" value="3年至5年" id="q63">
+        </label>
+        <label for="q64">5年至10年
+          <input type="radio" name="exp" value="5年至10年" id="q64">
+        </label>
+        <label for="q65">超過10年
+          <input type="radio" name="exp" value="超過10年" id="q65">
+        </label>
+        
+<br>
+<br>
+<br>
+        <p>7. &nbsp&nbsp&nbsp請問您每周觀看直播節目的頻率約為？</p>
+        <label for="q71">至多1天
+          <input type="radio" name="freq" value="至多1天" id="q71">
+        </label>
+        <label for="q72">每周2-3天
+          <input type="radio" name="freq" value="每周2-3天" id="q72">
+        </label>
+        <label for="q73">每周4-6天
+          <input type="radio" name="freq" value="每周4-6天" id="q73">
+        </label>
+        <label for="q74">每天都看
+          <input type="radio" name="freq" value="每天都看" id="q74">
+        </label>
+        
+ 
+<br>
+<br>
+<br>
+        <p>8. &nbsp&nbsp&nbsp平均而言，請問您每日觀看直播節目的時間長約為？</p>
+        <label for="q81">不到30分
+          <input type="radio" name="time" value="不到30分" id="q81">
+        </label>
+        <label for="q82">30分以上，不到1小時
+          <input type="radio" name="time" value="30分以上，不到1小時" id="q82">
+        </label>
+        <label for="q83">1小時以上，不到2小時
+          <input type="radio" name="time" value="1小時以上，不到2小時" id="q83">
+        </label>
+        <label for="q84">2小時以上，不到3小時
+          <input type="radio" name="time" value="2小時以上，不到3小時" id="q84">
+        </label>
+        <label for="q85">3小時以上
+          <input type="radio" name="time" value="3小時以上" id="q85">
+        </label>
+        
+<br>
+<br>
+<br>
+        <p>9. &nbsp&nbsp&nbsp平均而言，請問您每月消費在直播節目的金額約為(新台幣：元)？
+        <br>（不論是donate、付費訂閱或贈送虛擬禮物給直播主等）</p>
+        <label for="q91">從未
+          <input type="radio" name="money" value="從未" id="q91">
+        </label>
+        <label for="q92">僅以官方提供的免費虛擬點數贈送虛擬禮物給直播主
+          <input type="radio" name="money" value="僅以官方提供的免費虛擬點數贈送虛擬禮物給直播主" id="q92">
+        </label>
+        <label for="q93">1到500
+          <input type="radio" name="money" value="1到500" id="q93">
+        </label>
+        <label for="q94">501到1,500
+          <input type="radio" name="money" value="501到1,500" id="q94">
+        </label>
+        <label for="q95">1,501到5,000
+          <input type="radio" name="money" value="1,501到5,000" id="q95">
+        </label>
+        <label for="q96">5,001以上
+          <input type="radio" name="money" value="5,001以上" id="q96">
+        </label>
+<br>
+<br>
+<br>
+        <div class="content">
+            <h1>第二部分 觀看行為調查</h1></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下問題，請您根據過去觀看直播的經驗，選擇最符合您實際使用情況的選項（從「非常不同意」到「非常同意」的程度），共有12題：</p>
 
+            <form name="p1" method="" action="" onsubmit="">
+              <input type="hidden" name="qpage" value="p1"><br/>  <!--問項頁數紀錄-->
 
+              <ul>
+                <li class="quiz">
+                    <table class="likert7">
+                      <tr style="line-height: 16px; font-size: 14px;">
+                        <td></td>
+                        <td>非<br/>常<br/>不<br/>同<br/>意</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/><br/><br/>普<br/>通</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/>非<br/>常<br/>同<br/>意</td>
+                      </tr>
+                      <tr>
+                        <td>1. 我覺得直播主所談論的內容是非常有知識性的。</td>
+                        <td><input type="radio" name="ET1" value="1" required/></td>
+                        <td><input type="radio" name="ET1" value="2" required/></td>
+                        <td><input type="radio" name="ET1" value="3" required/></td>
+                        <td><input type="radio" name="ET1" value="4" required/></td>
+                        <td><input type="radio" name="ET1" value="5" required/></td>
+                        <td><input type="radio" name="ET1" value="6" required/></td>
+                        <td><input type="radio" name="ET1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
 
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>2. 我覺得直播主所談論的內容是非常專業的。</td>
+                        <td><input type="radio" name="ET2" value="1" required/></td>
+                        <td><input type="radio" name="ET2" value="2" required/></td>
+                        <td><input type="radio" name="ET2" value="3" required/></td>
+                        <td><input type="radio" name="ET2" value="4" required/></td>
+                        <td><input type="radio" name="ET2" value="5" required/></td>
+                        <td><input type="radio" name="ET2" value="6" required/></td>
+                        <td><input type="radio" name="ET2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
 
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>3. 我覺得直播主在他所談論的內容方面是非常有經驗的。</td>
+                        <td><input type="radio" name="ET3" value="1" required/></td>
+                        <td><input type="radio" name="ET3" value="2" required/></td>
+                        <td><input type="radio" name="ET3" value="3" required/></td>
+                        <td><input type="radio" name="ET3" value="4" required/></td>
+                        <td><input type="radio" name="ET3" value="5" required/></td>
+                        <td><input type="radio" name="ET3" value="6" required/></td>
+                        <td><input type="radio" name="ET3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>4. 與其他直播主相比，我覺得該直播主對他所談論的內容是相當了解的。</td>
+                        <td><input type="radio" name="ET4" value="1" required/></td>
+                        <td><input type="radio" name="ET4" value="2" required/></td>
+                        <td><input type="radio" name="ET4" value="3" required/></td>
+                        <td><input type="radio" name="ET4" value="4" required/></td>
+                        <td><input type="radio" name="ET4" value="5" required/></td>
+                        <td><input type="radio" name="ET4" value="6" required/></td>
+                        <td><input type="radio" name="ET4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>5. 我覺得直播主總是誠實地對待我。</td>
+                        <td><input type="radio" name="TW1" value="1" required/></td>
+                        <td><input type="radio" name="TW1" value="2" required/></td>
+                        <td><input type="radio" name="TW1" value="3" required/></td>
+                        <td><input type="radio" name="TW1" value="4" required/></td>
+                        <td><input type="radio" name="TW1" value="5" required/></td>
+                        <td><input type="radio" name="TW1" value="6" required/></td>
+                        <td><input type="radio" name="TW1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>6. 我覺得直播主是我可以信任的人。</td>
+                        <td><input type="radio" name="TW2" value="1" required/></td>
+                        <td><input type="radio" name="TW2" value="2" required/></td>
+                        <td><input type="radio" name="TW2" value="3" required/></td>
+                        <td><input type="radio" name="TW2" value="4" required/></td>
+                        <td><input type="radio" name="TW2" value="5" required/></td>
+                        <td><input type="radio" name="TW2" value="6" required/></td>
+                        <td><input type="radio" name="TW2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>7. 我覺得直播主總是非常坦率地對待我。</td>
+                        <td><input type="radio" name="TW3" value="1" required/></td>
+                        <td><input type="radio" name="TW3" value="2" required/></td>
+                        <td><input type="radio" name="TW3" value="3" required/></td>
+                        <td><input type="radio" name="TW3" value="4" required/></td>
+                        <td><input type="radio" name="TW3" value="5" required/></td>
+                        <td><input type="radio" name="TW3" value="6" required/></td>
+                        <td><input type="radio" name="TW3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+                
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>8. 我覺得直播主從來不會試圖誤導我。</td>
+                        <td><input type="radio" name="TW4" value="1" required/></td>
+                        <td><input type="radio" name="TW4" value="2" required/></td>
+                        <td><input type="radio" name="TW4" value="3" required/></td>
+                        <td><input type="radio" name="TW4" value="4" required/></td>
+                        <td><input type="radio" name="TW4" value="5" required/></td>
+                        <td><input type="radio" name="TW4" value="6" required/></td>
+                        <td><input type="radio" name="TW4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>9. 我覺得直播主的外表很好看。</td>
+                        <td><input type="radio" name="PA1" value="1" required/></td>
+                        <td><input type="radio" name="PA1" value="2" required/></td>
+                        <td><input type="radio" name="PA1" value="3" required/></td>
+                        <td><input type="radio" name="PA1" value="4" required/></td>
+                        <td><input type="radio" name="PA1" value="5" required/></td>
+                        <td><input type="radio" name="PA1" value="6" required/></td>
+                        <td><input type="radio" name="PA1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>10. 我覺得直播主的外表很有魅力。</td>
+                        <td><input type="radio" name="PA2" value="1" required/></td>
+                        <td><input type="radio" name="PA2" value="2" required/></td>
+                        <td><input type="radio" name="PA2" value="3" required/></td>
+                        <td><input type="radio" name="PA2" value="4" required/></td>
+                        <td><input type="radio" name="PA2" value="5" required/></td>
+                        <td><input type="radio" name="PA2" value="6" required/></td>
+                        <td><input type="radio" name="PA2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>11. 我覺得直播主會被認為是很有吸引力的。</td>
+                        <td><input type="radio" name="PA3" value="1" required/></td>
+                        <td><input type="radio" name="PA3" value="2" required/></td>
+                        <td><input type="radio" name="PA3" value="3" required/></td>
+                        <td><input type="radio" name="PA3" value="4" required/></td>
+                        <td><input type="radio" name="PA3" value="5" required/></td>
+                        <td><input type="radio" name="PA3" value="6" required/></td>
+                        <td><input type="radio" name="PA3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>12. 我覺得直播主普遍上會被認為是漂亮的/帥氣的。</td>
+                        <td><input type="radio" name="PA4" value="1" required/></td>
+                        <td><input type="radio" name="PA4" value="2" required/></td>
+                        <td><input type="radio" name="PA4" value="3" required/></td>
+                        <td><input type="radio" name="PA4" value="4" required/></td>
+                        <td><input type="radio" name="PA4" value="5" required/></td>
+                        <td><input type="radio" name="PA4" value="6" required/></td>
+                        <td><input type="radio" name="PA4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>             
+          
+              </ul>
+
+              <input class="btn" type ="button" onclick="history.back()" value="上一頁">&nbsp;&nbsp;&nbsp;&nbsp;
+              <input class="btn" Type="Submit" value="下一頁" >
+            </form>
+        </div>
+
+<br>
+<br>
+<br>
+        <div class="content">
+            <h1>第二部分 觀看行為調查</h1></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下問題，請您根據過去觀看直播的經驗，選擇最符合您實際使用情況的選項（從「非常不同意」到「非常同意」的程度），共有6題：</p>
+
+            <form name="" method="" action="" onsubmit="">
+              <input type="hidden" name="" value=""><br/>  <!--問項頁數紀錄-->
+
+              <ul>
+                <li class="quiz">
+                    <table class="likert7">
+                      <tr style="line-height: 16px; font-size: 14px;">
+                        <td></td>
+                        <td>非<br/>常<br/>不<br/>同<br/>意</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/><br/><br/>普<br/>通</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/>非<br/>常<br/>同<br/>意</td>
+                      </tr>
+                      <tr>
+                        <td>1. 我覺得直播主有意識到我的存在。</td>
+                        <td><input type="radio" name="PS1" value="1" required/></td>
+                        <td><input type="radio" name="PS1" value="2" required/></td>
+                        <td><input type="radio" name="PS1" value="3" required/></td>
+                        <td><input type="radio" name="PS1" value="4" required/></td>
+                        <td><input type="radio" name="PS1" value="5" required/></td>
+                        <td><input type="radio" name="PS1" value="6" required/></td>
+                        <td><input type="radio" name="PS1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>2. 我覺得直播主知道我正在看他。</td>
+                        <td><input type="radio" name="PS2" value="1" required/></td>
+                        <td><input type="radio" name="PS2" value="2" required/></td>
+                        <td><input type="radio" name="PS2" value="3" required/></td>
+                        <td><input type="radio" name="PS2" value="4" required/></td>
+                        <td><input type="radio" name="PS2" value="5" required/></td>
+                        <td><input type="radio" name="PS2" value="6" required/></td>
+                        <td><input type="radio" name="PS2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>3. 我覺得直播主知道我有意識到他的存在。</td>
+                        <td><input type="radio" name="PS3" value="1" required/></td>
+                        <td><input type="radio" name="PS3" value="2" required/></td>
+                        <td><input type="radio" name="PS3" value="3" required/></td>
+                        <td><input type="radio" name="PS3" value="4" required/></td>
+                        <td><input type="radio" name="PS3" value="5" required/></td>
+                        <td><input type="radio" name="PS3" value="6" required/></td>
+                        <td><input type="radio" name="PS3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>4. 我覺得直播主知道我正在關注他。</td>
+                        <td><input type="radio" name="PS4" value="1" required/></td>
+                        <td><input type="radio" name="PS4" value="2" required/></td>
+                        <td><input type="radio" name="PS4" value="3" required/></td>
+                        <td><input type="radio" name="PS4" value="4" required/></td>
+                        <td><input type="radio" name="PS4" value="5" required/></td>
+                        <td><input type="radio" name="PS4" value="6" required/></td>
+                        <td><input type="radio" name="PS4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>5. 我覺得直播主知道我有針對他做出回應。</td>
+                        <td><input type="radio" name="PS5" value="1" required/></td>
+                        <td><input type="radio" name="PS5" value="2" required/></td>
+                        <td><input type="radio" name="PS5" value="3" required/></td>
+                        <td><input type="radio" name="PS5" value="4" required/></td>
+                        <td><input type="radio" name="PS5" value="5" required/></td>
+                        <td><input type="radio" name="PS5" value="6" required/></td>
+                        <td><input type="radio" name="PS5" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>6. 我覺得直播主有針對我做出回應。</td>
+                        <td><input type="radio" name="PS6" value="1" required/></td>
+                        <td><input type="radio" name="PS6" value="2" required/></td>
+                        <td><input type="radio" name="PS6" value="3" required/></td>
+                        <td><input type="radio" name="PS6" value="4" required/></td>
+                        <td><input type="radio" name="PS6" value="5" required/></td>
+                        <td><input type="radio" name="PS6" value="6" required/></td>
+                        <td><input type="radio" name="PS6" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+                         
+              </ul>
+
+              <input class="btn" type ="button" onclick="history.back()" value="上一頁">&nbsp;&nbsp;&nbsp;&nbsp;
+              <input class="btn" Type="Submit" value="下一頁" >
+            </form>
+        </div>
+<br>
+<br>
+<br>
+        <div class="content">
+            <h1>第二部分 觀看行為調查</h1></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下問題，請您根據過去觀看直播的經驗，選擇最符合您實際使用情況的選項（從「非常不同意」到「非常同意」的程度），共有12題：</p>
+
+            <form name="p1" method="" action="" onsubmit="">
+              <input type="hidden" name="qpage" value="p1"><br/>  <!--問項頁數紀錄-->
+
+              <ul>
+                <li class="quiz">
+                    <table class="likert7">
+                      <tr style="line-height: 16px; font-size: 14px;">
+                        <td></td>
+                        <td>非<br/>常<br/>不<br/>同<br/>意</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/><br/><br/>普<br/>通</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/>非<br/>常<br/>同<br/>意</td>
+                      </tr>
+                      <tr>
+                        <td>1. 我會在直播間關注直播主的一舉一動。</td>
+                        <td><input type="radio" name="CM1" value="1" required/></td>
+                        <td><input type="radio" name="CM1" value="2" required/></td>
+                        <td><input type="radio" name="CM1" value="3" required/></td>
+                        <td><input type="radio" name="CM1" value="4" required/></td>
+                        <td><input type="radio" name="CM1" value="5" required/></td>
+                        <td><input type="radio" name="CM1" value="6" required/></td>
+                        <td><input type="radio" name="CM1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>2. 我會去看直播主在直播平台個人頁面上的相關資訊。</td>
+                        <td><input type="radio" name="CM2" value="1" required/></td>
+                        <td><input type="radio" name="CM2" value="2" required/></td>
+                        <td><input type="radio" name="CM2" value="3" required/></td>
+                        <td><input type="radio" name="CM2" value="4" required/></td>
+                        <td><input type="radio" name="CM2" value="5" required/></td>
+                        <td><input type="radio" name="CM2" value="6" required/></td>
+                        <td><input type="radio" name="CM2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>3. 我會仔細瀏覽直播主跟其他觀眾之間的對話。</td>
+                        <td><input type="radio" name="CM3" value="1" required/></td>
+                        <td><input type="radio" name="CM3" value="2" required/></td>
+                        <td><input type="radio" name="CM3" value="3" required/></td>
+                        <td><input type="radio" name="CM3" value="4" required/></td>
+                        <td><input type="radio" name="CM3" value="5" required/></td>
+                        <td><input type="radio" name="CM3" value="6" required/></td>
+                        <td><input type="radio" name="CM3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>4. 我會透過按讚(按愛心、表情符號、追蹤)等方式來表達我對直播主的支持。</td>
+                        <td><input type="radio" name="CM4" value="1" required/></td>
+                        <td><input type="radio" name="CM4" value="2" required/></td>
+                        <td><input type="radio" name="CM4" value="3" required/></td>
+                        <td><input type="radio" name="CM4" value="4" required/></td>
+                        <td><input type="radio" name="CM4" value="5" required/></td>
+                        <td><input type="radio" name="CM4" value="6" required/></td>
+                        <td><input type="radio" name="CM4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>5. 我會透過留言的方式與直播主互動。</td>
+                        <td><input type="radio" name="CT1" value="1" required/></td>
+                        <td><input type="radio" name="CT1" value="2" required/></td>
+                        <td><input type="radio" name="CT1" value="3" required/></td>
+                        <td><input type="radio" name="CT1" value="4" required/></td>
+                        <td><input type="radio" name="CT1" value="5" required/></td>
+                        <td><input type="radio" name="CT1" value="6" required/></td>
+                        <td><input type="radio" name="CT1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>6. 我會將直播主的直播連結分享在自己的社群平台上。</td>
+                        <td><input type="radio" name="CT2" value="1" required/></td>
+                        <td><input type="radio" name="CT2" value="2" required/></td>
+                        <td><input type="radio" name="CT2" value="3" required/></td>
+                        <td><input type="radio" name="CT2" value="4" required/></td>
+                        <td><input type="radio" name="CT2" value="5" required/></td>
+                        <td><input type="radio" name="CT2" value="6" required/></td>
+                        <td><input type="radio" name="CT2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>7. 我會向朋友分享直播主的連結來表達我的支持。</td>
+                        <td><input type="radio" name="CT3" value="1" required/></td>
+                        <td><input type="radio" name="CT3" value="2" required/></td>
+                        <td><input type="radio" name="CT3" value="3" required/></td>
+                        <td><input type="radio" name="CT3" value="4" required/></td>
+                        <td><input type="radio" name="CT3" value="5" required/></td>
+                        <td><input type="radio" name="CT3" value="6" required/></td>
+                        <td><input type="radio" name="CT3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+                
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>8. 我會在向直播主分享自己在日常生活中所看到關於直播主的一切（例如直播主的廣告看板、直播主代言的網路影片、直播主的新聞等）。</td>
+                        <td><input type="radio" name="CT4" value="1" required/></td>
+                        <td><input type="radio" name="CT4" value="2" required/></td>
+                        <td><input type="radio" name="CT4" value="3" required/></td>
+                        <td><input type="radio" name="CT4" value="4" required/></td>
+                        <td><input type="radio" name="CT4" value="5" required/></td>
+                        <td><input type="radio" name="CT4" value="6" required/></td>
+                        <td><input type="radio" name="CT4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>9. 如果直播主打算募資，我會捐款給他。</td>
+                        <td><input type="radio" name="MN1" value="1" required/></td>
+                        <td><input type="radio" name="MN1" value="2" required/></td>
+                        <td><input type="radio" name="MN1" value="3" required/></td>
+                        <td><input type="radio" name="MN1" value="4" required/></td>
+                        <td><input type="radio" name="MN1" value="5" required/></td>
+                        <td><input type="radio" name="MN1" value="6" required/></td>
+                        <td><input type="radio" name="MN1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>10. 我會向直播主donate，以支持他未來能夠繼續直播。</td>
+                        <td><input type="radio" name="MN2" value="1" required/></td>
+                        <td><input type="radio" name="MN2" value="2" required/></td>
+                        <td><input type="radio" name="MN2" value="3" required/></td>
+                        <td><input type="radio" name="MN2" value="4" required/></td>
+                        <td><input type="radio" name="MN2" value="5" required/></td>
+                        <td><input type="radio" name="MN2" value="6" required/></td>
+                        <td><input type="radio" name="MN2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>11. 我會向直播主donate，以支持他過去的努力。</td>
+                        <td><input type="radio" name="MN3" value="1" required/></td>
+                        <td><input type="radio" name="MN3" value="2" required/></td>
+                        <td><input type="radio" name="MN3" value="3" required/></td>
+                        <td><input type="radio" name="MN3" value="4" required/></td>
+                        <td><input type="radio" name="MN3" value="5" required/></td>
+                        <td><input type="radio" name="MN3" value="6" required/></td>
+                        <td><input type="radio" name="MN3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>12. 我會送直播主一些虛擬禮物，來表達我對他的欣賞。</td>
+                        <td><input type="radio" name="MN4" value="1" required/></td>
+                        <td><input type="radio" name="MN4" value="2" required/></td>
+                        <td><input type="radio" name="MN4" value="3" required/></td>
+                        <td><input type="radio" name="MN4" value="4" required/></td>
+                        <td><input type="radio" name="MN4" value="5" required/></td>
+                        <td><input type="radio" name="MN4" value="6" required/></td>
+                        <td><input type="radio" name="MN4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>             
+          
+              </ul>
+
+              <input class="btn" type ="button" onclick="history.back()" value="上一頁">&nbsp;&nbsp;&nbsp;&nbsp;
+              <input class="btn" Type="Submit" value="下一頁" >
+            </form>
+        </div>
+<br>
+<br>
+<br>
+        <div class="content">
+            <h1>第二部分 觀看行為調查</h1></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下問題，請您根據過去操作直播平台或觀看直播節目的經驗，選擇最符合您實際使用情況的選項（從「非常不同意」到「非常同意」的程度），共有4題：</p>
+
+            <form name="" method="" action="" onsubmit="">
+              <input type="hidden" name="" value=""><br/>  <!--問項頁數紀錄-->
+
+              <ul>
+                <li class="quiz">
+                    <table class="likert7">
+                      <tr style="line-height: 16px; font-size: 14px;">
+                        <td></td>
+                        <td>非<br/>常<br/>不<br/>同<br/>意</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/><br/><br/>普<br/>通</td>
+                        <td></td>
+                        <td></td>
+                        <td><br/>非<br/>常<br/>同<br/>意</td>
+                      </tr>
+                      <tr>
+                        <td>1. 在操作直播平台介面時，不會讓我在心理或感受上造成太大的負擔(如：留言、按愛心、分享、donate、訂閱、發禮物)。</td>
+                        <td><input type="radio" name="CL1" value="1" required/></td>
+                        <td><input type="radio" name="CL1" value="2" required/></td>
+                        <td><input type="radio" name="CL1" value="3" required/></td>
+                        <td><input type="radio" name="CL1" value="4" required/></td>
+                        <td><input type="radio" name="CL1" value="5" required/></td>
+                        <td><input type="radio" name="CL1" value="6" required/></td>
+                        <td><input type="radio" name="CL1" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>2. 在操作直播平台介面時，對我來說不需特別耗費心力。</td>
+                        <td><input type="radio" name="CL2" value="1" required/></td>
+                        <td><input type="radio" name="CL2" value="2" required/></td>
+                        <td><input type="radio" name="CL2" value="3" required/></td>
+                        <td><input type="radio" name="CL2" value="4" required/></td>
+                        <td><input type="radio" name="CL2" value="5" required/></td>
+                        <td><input type="radio" name="CL2" value="6" required/></td>
+                        <td><input type="radio" name="CL2" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>3. 在操作直播平台介面時，我感受不到時間的壓力。</td>
+                        <td><input type="radio" name="CL3" value="1" required/></td>
+                        <td><input type="radio" name="CL3" value="2" required/></td>
+                        <td><input type="radio" name="CL3" value="3" required/></td>
+                        <td><input type="radio" name="CL3" value="4" required/></td>
+                        <td><input type="radio" name="CL3" value="5" required/></td>
+                        <td><input type="radio" name="CL3" value="6" required/></td>
+                        <td><input type="radio" name="CL3" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+
+                <li class="quiz">
+                  <table class="likert7">
+                      <tr>
+                        <td>4. 我不需要太多的努力就可以達到直播平台介面操作的要求。</td>
+                        <td><input type="radio" name="CL4" value="1" required/></td>
+                        <td><input type="radio" name="CL4" value="2" required/></td>
+                        <td><input type="radio" name="CL4" value="3" required/></td>
+                        <td><input type="radio" name="CL4" value="4" required/></td>
+                        <td><input type="radio" name="CL4" value="5" required/></td>
+                        <td><input type="radio" name="CL4" value="6" required/></td>
+                        <td><input type="radio" name="CL4" value="7" required/></td>
+                      </tr>
+                    </table>
+                </li>
+                         
+              </ul>
+
+              <input class="btn" type ="button" onclick="history.back()" value="上一頁">&nbsp;&nbsp;&nbsp;&nbsp;
+              <input class="btn" Type="Submit" value="下一頁" >
+            </form>
+        </div>
+<br>
+<br>
+<br>
+        <h1>第三部分 基本資料填寫</h1></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下問題請就您的個人基本資料填寫，共有6題：</p>
+        <p>1. &nbsp&nbsp&nbsp性別：</p>
+        <label for="q11">生理男
+          <input type="radio" name="gender" value="生理男" id="q11">
+        </label>
+        <label for="q12">生理女
+          <input type="radio" name="gender" value="生理女" id="q12">
+        </label>
+        <label for="q13">其他
+          <input type="radio" name="gender" value="其他" id="q13">
+        </label>
+<br>
+<br>
+<br>
+        <p>2. &nbsp&nbsp&nbsp年齡：</p>
+        <label for="q21">19歲以下
+          <input type="radio" name="age" value="19歲以下" id="q21">
+        </label>
+        <label for="q22">20~24歲
+          <input type="radio" name="age" value="20~24歲" id="q22">
+        </label>
+        <label for="q23">25~29歲
+          <input type="radio" name="age" value="25~29歲" id="q23">
+        </label>
+        <label for="q24">30~34歲
+          <input type="radio" name="age" value="30~34歲" id="q24">
+        </label>
+        <label for="q25">35~39歲
+          <input type="radio" name="age" value="35~39歲" id="q25">
+        </label>
+        <label for="q26">40~44歲
+          <input type="radio" name="age" value="40~44歲" id="q26">
+        </label>
+        <label for="q27">45~49歲
+          <input type="radio" name="age" value="45~49歲" id="q27">
+        </label>
+        <label for="q28">50~54歲
+          <input type="radio" name="age" value="50~54歲" id="q28">
+        </label>
+        <label for="q29">55~59歲
+          <input type="radio" name="age" value="55~59歲" id="q29">
+        </label>
+        <label for="q210">60歲以上
+          <input type="radio" name="age" value="60歲以上" id="q210">
+        </label>
+<br>
+<br>
+<br>
+        <p>3. &nbsp&nbsp&nbsp教育程度：</p>
+        <label for="q31">高中（職）含以下
+          <input type="radio" name="education" value="高中（職）含以下" id="q31">
+        </label>
+        <label for="q32">大學（專）
+          <input type="radio" name="education" value="大學（專）" id="q32">
+        </label>
+        <label for="q33">研究所（含）以上
+          <input type="radio" name="education" value="研究所（含）以上" id="q33">
+        </label>
+<br>
+<br>
+<br>
+        <p>4. &nbsp&nbsp&nbsp職業：</p>
+        <label for="q41">學生
+          <input type="radio" name="career" value="學生" id="q41">
+        </label>
+        <label for="q42">軍/公/教
+          <input type="radio" name="career" value="軍/公/教" id="q42">
+        </label>
+        <label for="q43">製造業
+          <input type="radio" name="career" value="製造業" id="q43">
+        </label>
+        <label for="q44">家管
+          <input type="radio" name="career" value="家管" id="q44">
+        </label>
+        <label for="q45">自由業
+          <input type="radio" name="career" value="自由業" id="q45">
+        </label>
+        <label for="q46">金融/保險/證券業 
+          <input type="radio" name="career" value="金融/保險/證券業" id="q46">
+        </label>
+        <label for="q47">資訊業
+          <input type="radio" name="career" value="資訊業" id="q47">
+        </label>
+        <label for="q48">服務業
+          <input type="radio" name="career" value="服務業" id="q48">
+        </label>
+        <label for="q49">待業中
+          <input type="radio" name="career" value="待業中" id="q49">
+        </label>
+        <label for="q410">其他
+          <input type="radio" name="career" value="其他" id="q410">
+        </label>
+<br>
+<br>
+<br>
+        <p>5. &nbsp&nbsp&nbsp平均而言，請問您的每月可支配所得約為（新台幣：元）：</p>
+        <label for="q51">10,000(含)以下
+          <input type="radio" name="income" value="10,000(含)以下" id="q51">
+        </label>
+        <label for="q52">10,001到20,000
+          <input type="radio" name="income" value="10,001到20,000" id="q52">
+        </label>
+        <label for="q53">20,001到30,000
+          <input type="radio" name="income" value="20,001到30,000" id="q53">
+        </label>
+         </label>
+        <label for="q54">30,001到40,000
+          <input type="radio" name="income" value="30,001到40,000" id="q54">
+        </label>
+        <label for="q55">40,001到50,000
+          <input type="radio" name="income" value="40,001到50,000" id="q55">
+        </label>
+        <label for="q56">50,001(含)以上
+          <input type="radio" name="income" value="50,001(含)以上" id="q56">
+        </label>
+<br>
+<br>
+<br>
+        <p>6. &nbsp&nbsp&nbsp6. 針對這份問卷，如果您有覺得題目敘述不清或需要改善之地方，請在下方留下您的想法：</p>
+        <label for="q61">高中（職）含以下
+          <input type="text" name="opinion" id="q61">
+        </label>
+<br>
+<br>
+<br>
+        
+        <label for="q11">Email：
+          <input type="text" name="email" value="Email" id="q11">
+        </label>
 
 
       </form>
